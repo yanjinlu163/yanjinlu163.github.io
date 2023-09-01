@@ -12,7 +12,8 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+	
+		
       repo: 'https://github.com/docsifyjs/docsify/',
 	  <!-- 加载 _navbar.md 导航栏 --> 
       loadNavbar: true,
@@ -20,8 +21,8 @@
 	  loadSidebar: false,
 	  <!-- 封面 -->
 	  coverpage: false,
-	 
-
+	  
+	
 		// 完整配置参数
 		search: {
 		  maxAge: 86400000, // 过期时间，单位毫秒，默认一天
@@ -62,10 +63,8 @@
 		  // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
 		  // 匹配到的字符串将被用来识别索引
 		  // pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
-		}
-	  
-
-
+		},
+		
     }
   </script>
   
@@ -74,12 +73,11 @@
 	  if (typeof navigator.serviceWorker !== 'undefined') {
 		navigator.serviceWorker.register('sw.js')
 	  }
-</script>
+  </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  // <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+ 
 </body>
 </html>

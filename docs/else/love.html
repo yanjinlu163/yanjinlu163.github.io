@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>恋爱主题页面</title>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <style>
+    @keyframes petals {
+      0% {
+        transform: translateY(0) rotate(0deg);
+      }
+      100% {
+        transform: translateY(-800px) rotate(360deg);
+      }
+    }
+
+    .petals {
+      position: fixed;
+      top: -100px;
+      left: -100px;
+      width: 200px;
+      height: 200px;
+      background-image: url('petal.png');
+      animation: petals 20s linear infinite;
+      pointer-events: none;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>{{ daysTogether }}天</h1>
+    <h2>{{ partner1 }} & {{ partner2 }}</h2>
+    <img src="heart.png" alt="爱心图标">
+
+    <div class="calendar">
+      <!-- 在这里插入好看的可详细筛选的日历组件 -->
+    </div>
+
+    <div class="photo-wall">
+      <!-- 在这里插入照片墙组件 -->
+    </div>
+
+    <div class="timeline">
+      <!-- 在这里插入时光日记和照片记录组件 -->
+    </div>
+
+    <div class="petals"></div>
+  </div>
+
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        daysTogether: 365, // 替换为真实的开始在一起的天数
+        partner1: '姓名1', // 替换为真实的双方名字
+        partner2: '姓名2',
+        // 添加其他需要的数据属性
+        
+      },
+      mounted() {
+        // 在这里进行AJAX请求，获取需要的数据并更新data中的属性
+        
+      }
+    })
+  </script>
+</body>
+</html>

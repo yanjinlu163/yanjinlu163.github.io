@@ -12,6 +12,74 @@
 
 <body>
 	<div id="app"></div>
+	<script>
+		window.$docsify = {
+
+
+			repo: 'https://github.com/docsifyjs/docsify/',
+	  < !-- ���� _navbar.md ������ -->
+			loadNavbar: true,
+	  < !-- ����� -->
+			loadSidebar: false,
+	  < !-- ���� -->
+			coverpage: false,
+
+
+				// �������ò���
+				search: {
+			maxAge: 86400000, // ����ʱ�䣬��λ���룬Ĭ��һ��
+				paths: 'auto', // or 
+					placeholder: 'Type to search',
+
+						// ֧�ֱ��ػ�
+						placeholder: {
+				'/zh-cn/': '����',
+					'/': 'Type to search'
+			},
+
+			noData: 'No Results!',
+
+				// ֧�ֱ��ػ�
+				noData: {
+				'/zh-cn/': '�Ҳ������',
+					'/': 'No Results'
+			},
+
+			// ������������㼶, 1 - 6
+			depth: 3,
+
+				hideOtherSidebarContent: false, // �Ƿ������������������
+
+					// ��������������ͻ
+					// ͬһ���µĶ����վ֮��
+					namespace: 'website-1',
+						sidebarDisplayLevel: 1,
+
+		  // ʹ�ò�ͬ��������Ϊ·��ǰ׺��namespaces��
+		  // ע�⣺�������� paths: 'auto' ģʽ
+		  //
+		  // ��ʼ������ʱ�����ǴӲ�������ҵ�һ��·��
+		  // ��������б��е�ǰ׺ƥ�䣬���ǽ��л�����Ӧ������
+		  // pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+		  // �������ṩһ���������ʽ��ƥ��ǰ׺������������£�
+		  // ƥ�䵽���ַ�����������ʶ������
+		  // pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+		},
+		
+    }
+	</script>
+
+	<script>
+		< !-- ����ģʽ-- >
+	  if (typeof navigator.serviceWorker !== 'undefined') {
+			navigator.serviceWorker.register('sw.js')
+		}
+	</script>
+	<!-- Docsify v4 -->
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 
 </body>
 

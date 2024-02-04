@@ -12,4 +12,4 @@
 
 lllllll
 
-![1707041886310](D:\Java\myProject\yanjinlu163.github.io\yanjinlu163.github.io\docs\assets\1707041886310.png)
+![1707041886310](.\assets\1707041886310.png)

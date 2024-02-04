@@ -11,3 +11,5 @@
 #### 1.2.1、异步处理（短信通知，发送邮件，终端状态推送，App推送等）
 
 lllllll
+
+![1707041886310](D:\Java\myProject\yanjinlu163.github.io\yanjinlu163.github.io\docs\assets\1707041886310.png)

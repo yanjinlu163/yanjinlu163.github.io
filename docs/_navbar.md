@@ -1,8 +1,8 @@
 <!-- _navbar.md -->
-* [En](/)
-* [简体中文](/zh-cn/)
-* [简体中文2](/else/word)
-* [简体中文3](/zh-cn/)
-* [简体中文4](/zh-cn/)
-* [简体中文5](/zh-cn/)
+* [主页](/)
+* [文档1](/zh-cn/)
+* [文档2](/else/word)
+* [文档3](/else/index.html)
+* [文档4](/zh-cn/)
+* [其他](/message/dizhi)
 

@@ -12,9 +12,9 @@
 
 lllllll
 
-![1707041886310](.\assets\1707041886310.png)
+![1707041886310](../assets/1.png)
 
-![1707042208485](assets/1707042208485.png)
+![1707042208485](../assets/1707042208485.png)
 
 ```powershell
 npm i docsify-cli -g

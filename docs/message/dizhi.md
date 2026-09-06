@@ -2,13 +2,8 @@
 ### 蓝奏云优享版：
 https://www.ilanzou.com/
 
-### 森林文件：
-https://www.ilanzou.com/s/cs6ymh8Q
-```powershell
-替换地址：C:\Users\Administrator\AppData\LocalLow\SKS\TheForest\76561199656421046\Multiplayer
-```
 
-电影
+### 电影
 
 https://kd.oddym.com/
 

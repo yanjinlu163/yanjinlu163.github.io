@@ -8,3 +8,8 @@ https://www.ilanzou.com/s/cs6ymh8Q
 替换地址：C:\Users\Administrator\AppData\LocalLow\SKS\TheForest\76561199656421046\Multiplayer
 ```
 
+电影
+https://kd.oddym.com/
+https://www.qhdh.top/?ref=www.bidianer.com
+https://www.hdmoli.com/
+https://www.9zhoukj.com/
